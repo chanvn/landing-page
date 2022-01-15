@@ -140,6 +140,7 @@ button{
     color: #1F2937;
     font-weight: bold;
     margin-left: auto;
+    justify-self: flex-end;
 }
 
 .bottom {
@@ -184,4 +185,9 @@ button{
 .call {
     font-weight: bold;
     font-size: 1.25em;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
 }
